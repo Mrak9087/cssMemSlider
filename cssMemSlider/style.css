@@ -191,9 +191,12 @@ input:active + label .check{
     justify-content: center;
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2rem;
-    font-weight: bold;
-    color: white;
+}
+
+.link_footer{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #ccc;
 }
 
 @keyframes slideShow {
@@ -243,5 +246,11 @@ input:active + label .check{
         min-height: 2rem;
         justify-content: center;
         align-items: center;
+    }
+}
+
+@media screen and (max-width:415px) {
+    .text{
+        font-size: 0.7rem;
     }
 }
