@@ -141,8 +141,8 @@ label{
 
 .check{
     display: block;
-    width: 50%;
-    height: 50%;
+    width: 25%;
+    height: 25%;
     margin: auto;
     border: 2px solid #290075;
     border-radius: 50%;
@@ -233,6 +233,11 @@ input:active + label .check{
         row-gap: 0.7rem;
         height: auto;
     }
+
+    .slide_text{
+        justify-content: center;
+    }
+
     .bullets{
         max-width: 100%;
         min-height: 2rem;
