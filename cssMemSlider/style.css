@@ -153,11 +153,11 @@ input:active + label .check{
 }
 
 .controls label:hover .check{
-    background-color: #26719c;
+    background-color: #12ec1d;
 }
 
 .controls label:active .check{
-    background-color: #125cfc;
+    background-color: #c418f8;
 }
 
 #slide1:checked ~ .controls label:nth-of-type(1) .check,
@@ -165,7 +165,7 @@ input:active + label .check{
 #slide3:checked ~ .controls label:nth-of-type(3) .check,
 #slide4:checked ~ .controls label:nth-of-type(4) .check,
 #slide5:checked ~ .controls label:nth-of-type(5) .check{
-    background-color: #3f269c;
+    background-color: #1be6a2;
 }
 
 #slide1:checked ~ .slider .slides:nth-child(1),
