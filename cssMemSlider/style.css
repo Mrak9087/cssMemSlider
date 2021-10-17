@@ -152,6 +152,14 @@ input:active + label .check{
     background-color: rgb(80, 231, 100)!important;
 }
 
+.controls label:hover .check{
+    background-color: #26719c;
+}
+
+.controls label:active .check{
+    background-color: #125cfc;
+}
+
 #slide1:checked ~ .controls label:nth-of-type(1) .check,
 #slide2:checked ~ .controls label:nth-of-type(2) .check,
 #slide3:checked ~ .controls label:nth-of-type(3) .check,
